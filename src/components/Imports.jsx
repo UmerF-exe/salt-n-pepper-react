@@ -1,3 +1,4 @@
-import Navbar  from "./Navbar.jsx";
+import Header  from "./Navbar.jsx";
+import HeroSlider from "./HeroSlider.jsx";
 
-export { Navbar };
+export { Header, HeroSlider };

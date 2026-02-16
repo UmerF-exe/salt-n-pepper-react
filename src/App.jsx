@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 
-import { Navbar } from './components/Imports.jsx';
+import { Header, HeroSlider } from './components/Imports.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <div>
+      <Header />
+      <HeroSlider />
     </div>
   );
 }
